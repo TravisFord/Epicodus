@@ -1,0 +1,18 @@
+.output {
+	border: 1px solid gray;
+	margin-top: 10px;
+	width: 195px;
+	height: 35px;
+	border-radius: 3px;
+	padding: 6px;
+}
+
+h1 {
+	margin-bottom: 50px;
+}
+
+.clear {
+	margin-top: 50px;
+	margin-left: 525px;
+	
+}

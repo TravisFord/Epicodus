@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>Prime Numbers</title>
+
+    <style>
+      #result {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Prime Numbers</h1>
+      <h3>A prime number is a whole number greater than 1, whose only two whole-number factors are 1 and itself. </h3>
+      <form id="prime">
+        <div class="form-group">
+          <label for="input1">Enter a number to see all the prime numbers between 1 and that number:<input class="form-control" id="input1" type="number"></label>
+          
+        </div>
+
+        <button type="submit" class="btn btn-default">Find out!</button>
+      </form>
+
+      <div id="result">
+       <p>Your prime numbers are:
+        <span id="primes"></span> and that's all!
+       </p>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>

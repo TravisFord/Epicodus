@@ -1,0 +1,40 @@
+
+
+
+.clickable {
+	cursor: pointer;
+	color: blue;
+}
+
+#showing {
+	display: none;
+}
+
+#left {
+	border: 1px solid black;
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+
+#right {
+	border: 1px solid black;
+	width: 300px;
+	height: 300px;
+	float: right;
+}
+
+.hiddenP1 {
+	display: none;
+
+}
+
+.hiddenP2 {
+	display: none;
+
+}
+
+.highlight {
+	background-color: yellow;
+	border: 1px solid black;
+}
